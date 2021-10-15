@@ -1,0 +1,19 @@
+Course computing = new Course("BT1CTG1", "bcs computing ");
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: bcs computing 
+
+Student daniel = new Student("Daniel Moynihan", 22143622);
+daniel.print();
+ Student ID: 22143622 Name: Daniel Moynihan
+daniel.enrol(computing);
+daniel.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: bcs computing 
+

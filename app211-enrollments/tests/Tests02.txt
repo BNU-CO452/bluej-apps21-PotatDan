@@ -1,0 +1,45 @@
+ Module ProgramConcept = new Module("CO452", "Programming Concepts");
+ProgramConcept.print();
+ --------------------------------
+   App211: Module Details
+ --------------------------------
+
+ Module Code: CO452
+ Module title:Programming Concepts
+ Module Credit:0
+
+ProgramConcept.Creditset(15);
+ProgramConcept.print();
+ --------------------------------
+   App211: Module Details
+ --------------------------------
+
+ Module Code: CO452
+ Module title:Programming Concepts
+ Module Credit:15
+
+Course Computing = new Course("21S1", "Computing");
+Computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: 21S1: Computing
+
+    Exception occurred.
+Computing.addMod(ProgramConcept);
+Computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: 21S1: Computing
+
+ --------------------------------
+   App211: Module Details
+ --------------------------------
+
+ Module Code: CO452
+ Module title:Programming Concepts
+ Module Credit:15
+
